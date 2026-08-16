@@ -142,4 +142,5 @@ class CircularBuffer(Generic[T]):
 
     def __repr__(self) -> str:
         elements = [repr(self[i]) for i in range(self._size)]
-        return f"CircularBuffer([{', '.join(elements)}], size={self._size}, capacity={self._capacity})"
+        joined = ", ".join(elements)
+        return f"CircularBuffer([{joined}], size={self._size}, capacity={self._capacity})"

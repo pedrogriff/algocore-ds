@@ -138,7 +138,8 @@ class DynamicArray(Generic[T]):
 
         # Optional memory reclamation: shrink if load factor < 25%
         quarter_capacity = self._capacity // 4
-        if self._size > 0 and self._size <= quarter_capacity and self._capacity > self.DEFAULT_CAPACITY:
+        is_underutilized = 0 < self._size <= quarter_capacity
+        if is_underutilized and self._capacity > self.DEFAULT_CAPACITY:
             new_capacity = max(self.DEFAULT_CAPACITY, self._capacity // 2)
             self._resize(new_capacity)
 
@@ -200,4 +201,5 @@ class DynamicArray(Generic[T]):
     def __repr__(self) -> str:
         """Returns string representation of the array."""
         elements = [repr(self[i]) for i in range(self._size)]
-        return f"DynamicArray([{', '.join(elements)}], size={self._size}, capacity={self._capacity})"
+        joined = ", ".join(elements)
+        return f"DynamicArray([{joined}], size={self._size}, capacity={self._capacity})"

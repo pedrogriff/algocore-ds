@@ -37,7 +37,8 @@ def run_comparison() -> None:
     print("=" * 70)
     print("AlgoCore: Queue Performance (DynamicArray Shift vs. CircularBuffer)")
     print("=" * 70)
-    print(f"{'Queue Size (N)':<15} | {'DynamicArray O(N²) (s)':<25} | {'CircularBuffer O(N) (s)':<22}")
+    header = f"{'Queue Size (N)':<15} | {'DynamicArray O(N²) (s)':<25} | {'CircularBuffer O(N) (s)':<22}"
+    print(header)
     print("-" * 70)
 
     for n in sizes:
