@@ -4,6 +4,7 @@ Uses standard library unittest with pytest compatibility.
 """
 
 import unittest
+
 from algocore.arrays.dynamic_array import DynamicArray
 
 

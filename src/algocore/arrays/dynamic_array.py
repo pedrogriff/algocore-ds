@@ -13,7 +13,8 @@ Key Computer Science Principles Demonstrated:
 from __future__ import annotations
 
 import ctypes
-from typing import Any, Generic, Iterator, TypeVar, cast
+from collections.abc import Iterator
+from typing import Any, Generic, TypeVar, cast
 
 T = TypeVar("T")
 

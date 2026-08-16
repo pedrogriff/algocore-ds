@@ -4,6 +4,7 @@ Demonstrates why geometric capacity expansion is essential for Amortized O(1) pe
 """
 
 import time
+
 from algocore.arrays.dynamic_array import DynamicArray
 
 

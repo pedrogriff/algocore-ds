@@ -10,8 +10,9 @@ Demonstrates:
 
 from __future__ import annotations
 
+from collections.abc import Iterator
 from dataclasses import dataclass
-from typing import Any, Generic, Iterator, TypeVar, cast
+from typing import Any, Generic, TypeVar, cast
 
 K = TypeVar("K")
 V = TypeVar("V")

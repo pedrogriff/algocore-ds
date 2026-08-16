@@ -4,8 +4,9 @@ Empirically demonstrates the catastrophic cost of element shifting in queues.
 """
 
 import time
-from algocore.arrays.dynamic_array import DynamicArray
+
 from algocore.arrays.circular_buffer import CircularBuffer
+from algocore.arrays.dynamic_array import DynamicArray
 
 
 def benchmark_dynamic_array_fifo(n: int) -> float:

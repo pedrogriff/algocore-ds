@@ -4,6 +4,7 @@ Verifies constant-time read/write performance in open-addressing hash tables.
 """
 
 import time
+
 from algocore.maps.hash_map import HashMap
 
 

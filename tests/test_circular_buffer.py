@@ -1,6 +1,7 @@
 """Unit tests for CircularBuffer (ArrayDeque) with strict invariant checking."""
 
 import unittest
+
 from algocore.arrays.circular_buffer import CircularBuffer
 
 
@@ -38,7 +39,7 @@ class TestCircularBuffer(unittest.TestCase):
     def test_modulo_wrap_around_without_resizing(self) -> None:
         """Verifies pointers wrap around buffer boundaries correctly."""
         buf: CircularBuffer[int] = CircularBuffer(initial_capacity=4)
-        
+
         # Push 3 items, pop 2 items -> head advances
         buf.push_back(10)
         buf.push_back(20)

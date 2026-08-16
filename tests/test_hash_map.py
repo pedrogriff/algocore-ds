@@ -1,6 +1,7 @@
 """Unit tests for HashMap verifying open addressing, tombstone recycling, and rehashing."""
 
 import unittest
+
 from algocore.maps.hash_map import HashMap
 
 
