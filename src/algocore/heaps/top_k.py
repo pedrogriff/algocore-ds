@@ -1,4 +1,4 @@
-"""Google-Caliber Top-K Streaming Selection Engine.
+"""Streaming top-K selection.
 
 Finds top-K highest or bottom-K lowest elements from high-volume streams
 in O(N log K) time and O(K) memory using Min-Heap and Max-Heap invariants.

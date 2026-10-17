@@ -1,4 +1,4 @@
-"""Google-Caliber Self-Balancing AVL Tree with Order-Statistic Augmentation.
+"""Self-balancing AVL tree with order-statistic augmentation.
 
 Demonstrates:
 1. Strict BST invariant with automatic O(1) rotation rebalancing (LL, RR, LR, RL).

@@ -1,4 +1,4 @@
-"""Google-Caliber Binary Min-Heap and Priority Queue.
+"""Binary min-heap and priority queue.
 
 Demonstrates:
 1. Array-backed complete binary tree arithmetic (parent=(i-1)//2, left=2i+1, right=2i+2).

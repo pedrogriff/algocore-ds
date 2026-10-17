@@ -4,9 +4,8 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Code Style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 [![Type Checked: MyPy](https://img.shields.io/badge/types-mypy%20strict-brightgreen.svg)](https://mypy-lang.org/)
-[![Test Coverage: >90%](https://img.shields.io/badge/coverage-92%25-brightgreen.svg)]()
 
-**AlgoCore** is a production-grade laboratory for Computer Science fundamentals, data structure implementations, and memory efficiency benchmarks written in Google-standard modern Python.
+**AlgoCore** is a laboratory for Computer Science fundamentals, data structure implementations, and memory efficiency benchmarks written in modern Python.
 
 ---
 

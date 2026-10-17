@@ -1,4 +1,4 @@
-"""Google-Caliber Generic Dynamic Array Implementation.
+"""Generic dynamic array implementation.
 
 This module provides a custom DynamicArray implementation that operates on top of
 raw, fixed-size contiguous memory blocks allocated via `ctypes.py_object`.

@@ -1,4 +1,4 @@
-"""Google-Caliber Generic Circular Ring Buffer (ArrayDeque) Implementation.
+"""Generic circular ring buffer, ArrayDeque style.
 
 Demonstrates O(1) double-ended queue operations (push/pop front & back) using
 pointer wrap-around modulo arithmetic over contiguous memory.

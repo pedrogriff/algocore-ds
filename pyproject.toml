@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "algocore-ds"
 version = "0.1.0"
-description = "Algorithms, Custom Data Structures & Memory Benchmarking Lab in Google-Caliber Modern Python"
+description = "Algorithms, Custom Data Structures & Memory Benchmarking Lab in Modern Python"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [

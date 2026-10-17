@@ -1,6 +1,6 @@
 """Benchmark: HashMap vs. AVLTree on Exact Lookup, Range Filtering & Percentiles.
 
-Empirically proves:
+Results to look for:
 1. HashMaps win on exact O(1) point lookups.
 2. AVLTrees win dramatically on O(log N + K) range queries and O(log N) percentiles.
 """

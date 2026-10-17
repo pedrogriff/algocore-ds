@@ -1,6 +1,6 @@
 """Benchmark: Top-K Streaming Min-Heap vs. Full Array Sorting at Scale.
 
-Empirically proves:
+Results to look for:
 1. Min-Heap of size K processes 1,000,000 streaming elements in O(N log K) time.
 2. Full Sort takes O(N log N) time and wastes O(N) memory.
 """

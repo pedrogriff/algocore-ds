@@ -1,4 +1,4 @@
-"""Google-Caliber Open-Addressing Hash Map with Tombstone Recycling.
+"""Open-addressing hash map with tombstone recycling.
 
 Demonstrates:
 1. Hash compression and bucket index mapping.

@@ -1,4 +1,4 @@
-"""Unit tests for DynamicArray demonstrating Google-caliber testing rigor.
+"""Unit tests for DynamicArray.
 
 Uses standard library unittest with pytest compatibility.
 """
